@@ -125,7 +125,7 @@ main {
 
 .summary-section .link {
     padding: 10px 32px;
-    background-color: var(--color-dark-gray-blue);
+    background-color: var(--color-cobalt-blue);
     color: white;
     display: inline-block;
     font-size: 15px ;
@@ -162,23 +162,23 @@ padding: 5px 120px;
 .main-value{
     color: var(--color-white);
     display: flex;
-    font-size: 90px;
-    font-weight: 700;
+    font-size: 70px;
+    font-weight: 600;
 }
 .sub-value{
     color: var(--color-light-slate-blue);
-    padding-left: 10px;
+    padding-left: 8px;
 }
 
 .value-round{
-    height: 250px;
-    width: 250px;
+    height: 220px;
+    width: 220px;
     /* background-color:rgba(0, 0  , 147, 0.2); */
     background-color: var(--color-persian-blue);
     border-radius: 50%;
     display: flex;
-    padding: 20px 80px;
-    margin-left: 50px;
+    padding: 30px 70px;
+    margin-left: 70px;
      background: linear-gradient(0deg, rgba(6, 63, 147, .8) 0%, rgba(166, 185, 255,.1) 0%, rgba(9, 14, 172, 0.8) 90%);
 
 }
