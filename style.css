@@ -48,18 +48,15 @@ html{
 }
 
 body {
-    margin: 0;
+    /* margin: 0; */
     font-family: 'Hanken Grotesk', sans-serif;
     background-color: var(--color-white);
-    /* height: 100vh; */
-     
-    /* height: 100vh; */
-   /* width: 100%; */
-      /* display: flex;
-    flex-direction: row;
+    display: flex;
+    flex-direction: column;
     justify-content: center; 
-    align-items: center;
-    align-content: center; */
+    min-height: 100vh;
+    
+ 
 }
  
 
@@ -139,24 +136,20 @@ justify-content: center;
 }
 /* my code */
 .result-section{
-    width: 50%;
-    /* background-color: var(--color-cobalt-blue); */
+     width: 50%; 
     border-radius: 30px;
-    /* padding: 24px; */ 
+     
      --color-light-slate-blue: rgba(166, 185, 255, 1);
      --color-light-royal-blue: rgba(131, 168, 255, 1);
     background: linear-gradient(180deg, rgba(6, 63, 147, 1) 0%, rgba(6, 63, 147, 1) 0%, rgba(9, 14, 172, .75) 80%);
-    /* width: 50%; */
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center; */
+  
     box-shadow: 25px 25px 30px var(--color-pale-blue);
-    /* padding: 20px; */
-    /* align-items: center; */
+    text-align: center;
 }
 .secondary-title{
     color: var(--color-white);
-padding: 5px 120px;
+/* padding: 5px ; */
+
 
 }
 
@@ -170,30 +163,41 @@ padding: 5px 120px;
     padding-left: 8px;
 }
 
+
+.center-cyrcle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 .value-round{
+  
     height: 220px;
     width: 220px;
     /* background-color:rgba(0, 0  , 147, 0.2); */
     background-color: var(--color-persian-blue);
     border-radius: 50%;
     display: flex;
-    padding: 30px 70px;
-    margin-left: 71px;
+      padding: 31px 70px;
+    /* margin-left: 70px;  */ 
     background: linear-gradient(0deg, rgba(6, 63, 147, .8) 0%, rgba(166, 185, 255,.1) 0%, rgba(9, 14, 172, 0.8) 90%);
+    /* flex-direction: row;
+    align-items: center;
+    align-content: center;  */
 }
 
 .main-title{
-    padding-left: 140px;
+  
     color: var(--color-light-lavender);
 }
 .description{
     color: var(--color-light-lavender);
-      text-align: center;  
+    
     font-size: 16px;
     padding:0px 60px ;
+    /* align-items: center; */
 }
 
-@media (max-width:425px){
+@media (max-width:425px ) {
     main {
         flex-direction: column;
         margin-top: 10px;
@@ -205,7 +209,7 @@ padding: 5px 120px;
     }
     .result-section{
         width: 100%;
-        height: 51%;
+        min-height: 51vh;
     }
     
 
