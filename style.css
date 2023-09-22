@@ -190,9 +190,13 @@ justify-content: center;
 }
 
 @media (max-width:425px ) {
+    body{
+        margin: 0;
+    }
     main {
         flex-direction: column;
-        margin-top: 10px;
+        /* margin-top: 10px; */
+        
        
     }
     .summary-section {
@@ -202,7 +206,9 @@ justify-content: center;
     .result-section{
         width: 100%;
         min-height: 51vh;
+        border-radius: 0px 0px 30px 30px;
     }
+    
     
 
 }
