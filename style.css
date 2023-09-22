@@ -209,6 +209,10 @@ justify-content: center;
         border-radius: 0px 0px 30px 30px;
     }
     
-    
+    .description{
+        color: var(--color-light-lavender);
+        
+        font-size: 12px;
+    }
 
 }
